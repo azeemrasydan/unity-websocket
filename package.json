@@ -18,6 +18,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "kafkajs": "^2.2.4",
     "ws": "^8.14.2"
   }
 }
