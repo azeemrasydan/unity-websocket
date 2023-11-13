@@ -3,7 +3,7 @@ import { Kafka, Producer, ProducerRecord } from 'kafkajs';
 
 const kafka = new Kafka({
   clientId: 'ball-event-producer',
-  brokers: ['127.0.0.1:9092'],
+  brokers: ['kafka:9092'],
 });
 
 const producer = kafka.producer();
